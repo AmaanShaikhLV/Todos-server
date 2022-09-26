@@ -1,0 +1,3 @@
+CREATE DATABASE perntodo;
+
+CREATE TABLE todo(todo_id SERIAL PRIMARY KEY, title VARCHAR(20), description VARCHAR(234));
